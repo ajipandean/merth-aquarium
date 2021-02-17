@@ -56,6 +56,13 @@
   box-shadow: 0 2px 4px lightgrey;
   border-radius: 6px;
 }
+.schedule_timeline_item_content:hover {
+  background-color: var(--primary);
+  transition: all 0.2s linear;
+}
+.schedule_timeline_item_content:hover * {
+  color: whitesmoke;
+}
 .schedule_timeline_item_content * {
   margin: 0;
 }
