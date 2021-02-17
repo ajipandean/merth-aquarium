@@ -1,0 +1,19 @@
+:root {
+  --primary: dodgerblue;
+  --primary-opacity: rgba(30, 144, 255, 0.05);
+
+  --dark: #333;
+
+  --light: whitesmoke;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
