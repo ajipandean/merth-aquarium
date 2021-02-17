@@ -2,7 +2,4 @@
 @import url("partials/globals.css");
 @import url("partials/topbar.css");
 @import url("partials/highlight.css");
-
-#content {
-  padding: 24px 0;
-}
+@import url("partials/schedule.css");

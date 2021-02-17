@@ -1,11 +1,11 @@
 .highlight {
   display: flex;
+  padding: 24px;
   align-items: center;
 }
 .highlight_image {
   flex-basis: 50%;
   overflow: hidden;
-  margin-left: 24px;
   border-radius: 12px;
 }
 .highlight_image img {
@@ -53,10 +53,6 @@
 @media screen and (max-width: 918px) {
   .highlight {
     flex-direction: column;
-  }
-  .highlight_image {
-    border-radius: 0;
-    margin-left: 0;
   }
   .highlight_content {
     margin-left: 0;
