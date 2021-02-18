@@ -49,6 +49,9 @@
 /* resposive topbar */
 @media screen and (max-width: 1026px) {
   .topbar {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    height: auto;
     align-items: flex-start;
     flex-direction: column;
   }
@@ -59,5 +62,9 @@
     width: 100%;
     white-space: nowrap;
     overflow: auto;
+  }
+
+  .header-space {
+    height: 119px;
   }
 }
