@@ -1,4 +1,5 @@
 footer {
+  padding: 0 24px;
   background-color: var(--light);
   border-top: thin solid lightgrey;
 }
@@ -69,4 +70,16 @@ footer > .footer {
   text-decoration: none;
   border-radius: 6px;
   font-weight: 600;
+}
+
+@media screen and (max-width: 682px) {
+  footer > .footer {
+    flex-direction: column;
+  }
+  .footer > section p.copy {
+    margin-bottom: 16px;
+  }
+  .footer > aside {
+    margin: 0;
+  }
 }
